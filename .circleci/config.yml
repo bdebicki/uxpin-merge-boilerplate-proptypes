@@ -2,9 +2,6 @@ jobs:
   build:
     docker:
       - image: circleci/node:8.1
-        auth:
-          username: $DOCKER_USER
-          password: $DOCKER_PASS
     working_directory: ~/project/
     steps:
       - checkout
