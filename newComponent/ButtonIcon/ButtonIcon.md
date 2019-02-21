@@ -1,11 +1,10 @@
-# Button
+# ButtonIcon
 
 ```javascript
-<Button
-    stretched={true}
+<ButtonIcon
     type="error"
     mode="filled"
     icon={<Icon size="s" icon="TickerSvg" />}
-    size="s"
-    >Merge!</Button>
+    size="s" 
+/>
 ```
