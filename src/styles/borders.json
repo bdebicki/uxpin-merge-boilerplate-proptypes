@@ -1,4 +1,5 @@
 {
   "borderRadius": "3px",
+  "borderRadiusCircle": "50%",
   "borderStandard": "1px solid"
 }
