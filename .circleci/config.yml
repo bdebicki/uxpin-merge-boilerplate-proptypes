@@ -1,0 +1,16 @@
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.1
+    working_directory: ~/project/
+    steps:
+      - checkout
+      - run:
+          name: "Install dependencies"
+          command: npm install
+      - run:
+          name: "Run tests"
+          command: npm run test
+      - run:
+          name: "Check ESLint"
+          command: npm run check
