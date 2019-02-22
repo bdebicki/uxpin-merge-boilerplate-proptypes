@@ -1,11 +1,11 @@
 import styled from 'react-emotion';
 import { css } from 'emotion';
 import withProps from 'recompose/withProps';
-import * as colors from '../../src/styles/colors.json';
-import * as borders from '../../src/styles/borders.json';
-import * as shadow from '../../src/styles/shadows.json';
-import * as sizes from '../../src/styles/sizes.json';
-import * as elementSizes from '../../src/styles/elementSizes.json';
+import * as colors from '../styles/colors.json';
+import * as borders from '../styles/borders.json';
+import * as shadow from '../styles/shadows.json';
+import * as sizes from '../styles/sizes.json';
+import * as elementSizes from '../styles/elementSizes.json';
 
 /* Selects the right background color based on passed props */
 const backgroundSelector = (type, mode) => {
