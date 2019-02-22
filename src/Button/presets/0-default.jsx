@@ -3,11 +3,11 @@ import Button from '../Button';
 
 export default (
   <Button
-    icon={'<Icon icon=\'TickerSvg\' size=\'s\' />'}
+    icon={'<Icon icon=\'ColorDropSvg\' size=\'s\' />'}
     mode="filled"
-    size="s"
+    size="l"
     stretched
-    type="error"
+    type="primary"
     uxpId="button1">
     Merge!
   </Button>
